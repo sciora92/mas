@@ -1,0 +1,86 @@
+ html  
+
+{background: url(images/75.b.jpg) repeat center fixed; }
+
+@font-face 
+{
+    font-family: calibri;
+    src: url(fonts/calibri.woff);
+}
+
+body 
+{	
+        width:100vw;
+        margin-left:auto;
+        margin-right:auto;   	
+}
+
+.headboxtop1 
+{  
+    
+        width:63vw;
+        height:10.5vw;
+        margin-left:auto;
+        margin-right:auto;
+        background-color:rgba(45,45,234,0.3);
+        border-radius:0.9vw;
+        box-shadow:0.5vw 0.5vw 0.9vw 0.2vw rgba(18,18,18,0.7);  
+}
+
+
+h1  
+{
+        font-family: calibri,arial, sans-serif;
+        font-size: 1.8vw;
+        text-shadow: 0.2vw 0.2vw 0.3vw rgba(18, 18, 18, 0.7);
+        font-weight: 600;
+        color: #ccf;
+        padding:1vw 0vw 0vw 1vw;
+        margin:1vw 0vw 0vw 1vw;
+        text-align:left;
+}
+
+
+h2  
+{
+        font-family: calibri,arial, sans-serif;
+        font-size: 1.4vw;
+        text-shadow: 0.2vw 0.2vw 0.3vw rgba(18,18,18,0.7);
+        font-weight: 200;
+        color: #ccf;
+        padding:0vw 0vw 0vw 1vw;
+        margin:1vw 0vw 0vw 1vw;
+        text-align:left;
+}
+
+video 
+{
+    
+    width: 63%;
+    height:auto;
+    display:block;
+    margin:auto;
+}
+
+.wrap video 
+{ 
+    
+    border-radius: 0.9vw;
+    #box-shadow:0.5vw 0.5vw rgba(18,18,18,0.6);
+    box-shadow:0.5vw 0.5vw 1.1vw rgba(18,18,18,0.6);
+}
+
+
+hr {
+    
+    height: 0.12vw;
+    width:63vw;
+    background-image:linear-gradient(to right,rgba(0,0,255,0.0),rgba(0,0,255,0.4),rgba(0,0,255,0.0));
+    border: none;
+}
+
+
+
+
+
+
